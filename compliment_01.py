@@ -21,10 +21,10 @@ def main():
 def compliment():
         
     compliment = 'You have wonderful eyes.'
-    question = input (f'Would you like a compliment?')
+    question = input ('Would you like a compliment? ')
 
     if question == 'yes':
-        print (f'{compliment} \nThank you for playing.') 
+        print (f'{compliment}\nThank you for playing.') 
 
     else:
         print ('Thank you for playing.')
