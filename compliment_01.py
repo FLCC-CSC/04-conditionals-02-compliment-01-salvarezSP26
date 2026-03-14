@@ -1,8 +1,8 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Shanelle Alvarez
+# DATE: March 1, 2026
+# BRIEF DESCRIPTION:  Compliment
 
 
 
@@ -15,11 +15,21 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    compliment()
 
+def compliment():
+        
+    compliment = 'You have wonderful eyes.'
+    question = input ('Would you like a compliment? ')
 
+    if question == 'yes':
+        print (f'{compliment}\nThank you for playing.') 
 
+    else:
+        print ('Thank you for playing.')
 
-
+main()
 
 
 
@@ -67,12 +77,12 @@ Thank you for playing.
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
 
-
+5
 
 
 2. What was the hardest part of this lab?
 
-
+The hardest part was determining which variables to use.
 
 
 
